@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class DemoOpencartTest {
 
     @Test
-    public void WebsiteTest() throws InterruptedException {
+    public void WebsiteTest() {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*");
